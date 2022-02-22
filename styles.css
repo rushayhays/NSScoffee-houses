@@ -1,5 +1,11 @@
 header {
     text-align: center;
+    background-color: white;
+    opacity:0.8;
+}
+body{
+    background-image:url("/Images/coffeeHouse.jpeg");
+    background-size: cover;
 }
 
 .list {
@@ -11,6 +17,41 @@ header {
     width:25%;
     border-style: dotted;
     border-color: lightslategray;
+    background-color: #a17030;
+    opacity:0.8;
     padding: 5px;
-
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: rgb(246, 206, 153);
 }
+
+.cardCol {
+    margin:5px;
+}
+.cardRow {
+    margin-left: 5px;
+    display:flex;
+    justify-content: flex-start;
+    color: white;
+}
+
+a {
+    margin-right:20px;
+}
+
+h4 {
+    margin:0;
+    padding:0;
+}
+
+a {
+    color:white;
+}
+
+
+
+
+/* .info {
+    background-color: burlywood;
+} */
